@@ -1,0 +1,34 @@
+Purpose:
+	One focus area for this course is understanding how to structure and implement big software systems. By big we mean systems that may consist of hundreds or even thousands of packages and perhaps several million lines of code.
+
+	In order to successfully implement big systems we need to partition code into relatively small parts and thoroughly test each of the parts before inserting them into the software baseline. As new parts are added to the baseline and as we make changes to fix latent errors or performance problems we will re-run test sequences for those parts and, perhaps, for the entire baseline. Because there are so many packages the only way to make this intensive testing practical is to automate the process. How we do that is related to projects for this year.
+
+	The process, described above, supports continuous integration. That is, when new code is created for a system, we build and test it in the context of other code which it calls, and which call it. As soon as all the tests pass, we check in the code and it becomes part of the current baseline. There are several services necessary to efficiently support continuous integration, as shown in the Figure 1., below, a Federation of servers, each providing a dedicated service for continuous integration.
+
+The Federation consists of:
+	- Repository: Holds all code and documents for the current baseline, along with their dependency relationships. It also holds test results and may cache build images.
+	- Build Server: Based on build requests and code sent from the Repository, the Build Server builds test libraries for submission to the Test Harness.
+	- Test Harness: Runs tests, concurrently for multiple users, based on test requests and libraries sent from the Build Server. Clients will checkin, to the Repository, code for testing, along with one or more test requests. The repository sends code and requests to the Build Server, where the code is built into libraries and the test requests and libraries are then sent to the Test Harness. The Test Harness executes tests, logs results, and submits results to the Repository. It also notifies the author of the tests of the results.
+	- Client: The user's primary interface into the Federation, serves to submit code and test requests to the Repository. Later, it will be used view test results, stored in the repository.
+	- Collaboration Server: The Collaboration Server provides services for: remote meetings, shared digital whiteboard, shared calendars. It also stores workplans, schedules, database of action items, etc.
+	
+Requirements:
+Your Build Server
+1. Shall be prepared using C#, the .Net Framework, and Visual Studio 2017.
+2. Shall include a Message-Passing Communication Service built with WCF. It is expected that you will build on your Project #3 Comm Prototype.
+3. The Communication Service shall support accessing build requests by Pool Processes from the mother Builder process, sending and receiving build requests, and sending and receiving files.
+4. Shall provide a Repository server that supports client browsing to find files to build, builds an XML build request string and sends that and the cited files to the Build Server.
+5. Shall provide a Process Pool component that creates a specified number of processes on command.
+6. Pool Processes shall use message-passing communication to access messages from the mother Builder process.
+7. Each Pool Process shall attempt to build each library, cited in a retrieved build request, logging warnings and errors.
+8. If the build succeeds, shall send a test request and libraries to the Test Harness for execution, and shall send the build log to the repository.
+9. The Test Harness shall attempt to load each test library it receives and execute it. It shall submit the results of testing to the Repository.
+10. Shall include a Graphical User Interface, built using WPF.
+11. The GUI client shall be a separate process, implemented with WPF and using message-passing communication. It shall provide mechanisms to get file lists from the Repository, and select files for packaging into a test library1, e.g., a test element specifying driver and tested files, added to a build request structure. It shall provide the capability of repeating that process to add other test libraries to the build request structure.
+12. The client shall send build request structures to the repository for storage and transmission to the Build Server.
+13. The client shall be able to request the repository to send a build request in its storage to the Build Server for build processing.
+
+Your As-Built Design Document
+1. Shall build on your OCD.
+2. Shall used activity diagrams, package diagrams, and class diagrams to describe the essential parts of your design and implementation.
+3. Shall comment on changes to the core concept as your design evolved, and on deficiencies you feel your project incorporates3.

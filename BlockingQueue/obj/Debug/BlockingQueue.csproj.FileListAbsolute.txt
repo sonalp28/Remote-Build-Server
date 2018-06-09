@@ -1,0 +1,7 @@
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\BlockingQueue\bin\Debug\BlockingQueue.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\BlockingQueue\bin\Debug\BlockingQueue.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\BlockingQueue\bin\Debug\BlockingQueue.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\BlockingQueue\obj\Debug\BlockingQueue.csprojResolveAssemblyReference.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\BlockingQueue\obj\Debug\BlockingQueue.csproj.CoreCompileInputs.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\BlockingQueue\obj\Debug\BlockingQueue.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\BlockingQueue\obj\Debug\BlockingQueue.pdb

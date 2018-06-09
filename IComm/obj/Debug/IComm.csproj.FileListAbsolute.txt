@@ -1,0 +1,7 @@
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\IComm\bin\Debug\IComm.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\IComm\bin\Debug\IComm.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\IComm\bin\Debug\IComm.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\IComm\obj\Debug\IComm.csprojResolveAssemblyReference.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\IComm\obj\Debug\IComm.csproj.CoreCompileInputs.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\IComm\obj\Debug\IComm.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\IComm\obj\Debug\IComm.pdb

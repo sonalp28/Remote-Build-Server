@@ -1,0 +1,7 @@
+
+  Loading Test Libraries from:
+ C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\ChildBuilder\ChildBuilder_tempDir9000
+ Loaded 
+CodeToTest1.dll
+ Test Result - TestPassed
+

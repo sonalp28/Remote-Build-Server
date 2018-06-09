@@ -1,0 +1,7 @@
+C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache
+C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\Serialization\obj\Debug\Serialization.csproj.CoreCompileInputs.cache
+C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\Serialization\bin\Debug\Serialization.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\Serialization\bin\Debug\Serialization.dll
+C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\Serialization\bin\Debug\Serialization.pdb
+C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\Serialization\obj\Debug\Serialization.dll
+C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\Serialization\obj\Debug\Serialization.pdb

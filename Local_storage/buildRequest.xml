@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<buildRequest>
+	<test id="1">
+		<tested>CodeToTest1.cs</tested>
+		<testdependency>calculator.cs</testdependency>
+		<testDriver>TestDriver1.cs</testDriver>
+		<testinterface>Interfaces.cs</testinterface>
+	</test>
+	<test id="2">
+		<tested>CodeToTest2.cs</tested>
+		<testdependency>calculator.cs</testdependency>
+		<testDriver>TestDriver2.cs</testDriver>
+		<testinterface>Interfaces.cs</testinterface>
+	</test>
+	<test id="3">
+		<tested>CodeToTest3.cs</tested>
+		<testdependency></testdependency>
+		<testDriver>TestDriver3.cs</testDriver>
+		<testinterface></testinterface>
+	</test>
+</buildRequest>

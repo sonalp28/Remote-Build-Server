@@ -1,0 +1,16 @@
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\Repository.exe.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\Repository.exe
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\Repository.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\Comm.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\IComm.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\BlockingQueue.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\Comm.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\Comm.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\IComm.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\IComm.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\BlockingQueue.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\bin\Debug\BlockingQueue.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\obj\Debug\Repository.exe
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\Repository\obj\Debug\Repository.pdb

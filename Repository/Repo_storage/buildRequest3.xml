@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<buildRequest>
+	<test
+		id="1">
+		<test1file>CodeToTest3.cs</test1file>
+		<test2file>TestDriver3.cs</test2file>
+	</test>
+</buildRequest>

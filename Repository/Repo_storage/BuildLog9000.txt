@@ -1,0 +1,22 @@
+ 
+Microsoft (R) Visual C# Compiler version 4.7.2556.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+error CS2001: Source file 'CodeToTest1.cs' could not be found
+error CS2001: Source file 'calculator.cs' could not be found
+error CS2001: Source file 'TestDriver1.cs' could not be found
+error CS2001: Source file 'Interfaces.cs' could not be found
+warning CS2008: No source files specified
+ 
+Build Result: Failure [See the error message for further information] 
+Microsoft (R) Visual C# Compiler version 4.7.3056.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+ 
+Build Result: Success 

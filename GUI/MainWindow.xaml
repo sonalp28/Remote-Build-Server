@@ -1,0 +1,126 @@
+﻿<!--////////////////////////////////////////////////////////////////////////////////////////////
+// MainWindow.xaml   : GUI client built using Windows Presentation Foundation                 //
+//                                                                                            //
+// Platform          : Dell Inspiron 13 - Windows 10, Visual Studio 2017                      //
+// Language          : C# & .Net Framework                                                    //
+// Application       : Project 4 [Build Server] Software Modeling & Analysis CSE-681 Fall'17  //
+// Author            : Sonal Patil, Syracuse University                                       //
+//                     spatil06@syr.edu, (408)-416-6291                                       //  
+////////////////////////////////////////////////////////////////////////////////////////////////
+Required Files: MainWindow.xaml.cs
+
+Maintenance History: ver 1.0 : 19 Nov 2017
+-->
+
+<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="User GUI" Height="620" Width="1250">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="{x:Type TabItem}">
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+        <Style TargetType="{x:Type ListBox}">
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+            <Setter Property="FontWeight" Value="Medium" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Border Padding="5" Background="#ddd" BorderThickness="0 2 0 0" BorderBrush="DarkSlateBlue">
+            <TabControl>
+                <TabItem Name="Local" Header="Main">
+                    <Grid Background="LightSteelBlue" Margin="0,0,0.4,-55.2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="101*"/>
+                            <ColumnDefinition Width="24*"/>
+                            <ColumnDefinition Width="1067*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Row="1">
+                            <TextBlock HorizontalAlignment="Left" Margin="29,35,-10.6,0" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Text="Select Files :" VerticalAlignment="Top" Height="21" Width="84"/>
+                        </Grid>
+
+                        <Grid Grid.Row="2">
+                            <TextBox Name="textbox1" HorizontalAlignment="Left" Height="28" Margin="26,70,-207.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="284"/>
+                            <Button Content="Browse" Click="browse_Click" ToolTip="Browse and Select files" FontSize="14"  HorizontalAlignment="Left" Margin="321,70,-279.6,0" VerticalAlignment="Top" Width="61" Height="28"/>
+                            <Button Content="Get Files in Repository" ToolTip="Build buildRequest" Click="get_files_fromRepo" HorizontalAlignment="Left" Margin="612,72,-675.6,0" VerticalAlignment="Top" Width="166" Height="30" RenderTransformOrigin="0.831,1.387"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="423,77,-517.6,0" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Text="Files Present in Repository :" VerticalAlignment="Top" Height="21" Width="197"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="815,77,-957.6,0" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Text="Generated Build Request" VerticalAlignment="Top" Height="21" Width="245"/>
+                            <Button Content="Get Existing BuildRequest Files" Click="br_files" ToolTip="Browse and Select files" FontSize="14"  HorizontalAlignment="Left" Margin="991,72,-1087.8,0" VerticalAlignment="Top" Width="200" Height="28"/>
+
+                        </Grid>
+
+                        <Grid Grid.Row="3">
+                            <ListBox Name ="listBox1" SelectionMode="Extended" HorizontalAlignment="Left" Height="200" BorderThickness="2" Margin="24,119,-288.6,0" VerticalAlignment="Top" Width="367"/>
+                            <ListBox Name ="listBox2" SelectionMode="Extended" Height="200" BorderThickness="2" Margin="424,119,-681.6,0" VerticalAlignment="Top"/>
+                            <ListBox Name ="listBox3" MouseDoubleClick="localFiles_MouseDoubleClick" SelectionMode="Extended" HorizontalAlignment="Left" Height="200" BorderThickness="2" Margin="815,119,-1089.8,0" VerticalAlignment="Top" Width="378"/>
+                        </Grid>
+
+                        <Grid Grid.Row="4">
+                            <TextBlock HorizontalAlignment="Left" Margin="208,350,-293,0" TextWrapping="Wrap" Text="" Name ="status" VerticalAlignment="Top" Height="27" Width="189"/>
+                            <Button Content="Send Files to Repository" Click="send_files_toRepo" HorizontalAlignment="Left" Margin="28,345,-86.6,0" VerticalAlignment="Top" Width="161" Height="35" RenderTransformOrigin="-4.695,8.496"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="622,348,-664,0" TextWrapping="Wrap" Text="" Name ="testelement" VerticalAlignment="Top" Height="27" Width="146"/>
+                            <Button Content="Add test element" Click="add_testElement" HorizontalAlignment="Left" Margin="426,345,-491,0" VerticalAlignment="Top" Width="169" Height="35" RenderTransformOrigin="-4.695,8.496"/>
+                            <Button Content="Create-Save BuildRequest to Repository" Click="create_save_BR" HorizontalAlignment="Left" Margin="424,392,-679,0" VerticalAlignment="Top" Width="359" Height="35"/>
+                            <Button Content="Send BuildRequests to Builder" Click="send_BR_toBuilder" HorizontalAlignment="Left" Margin="817,345,-935,0" VerticalAlignment="Top" Width="222" Height="35"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="1044,348,-1098,0" TextWrapping="Wrap" Text="" Name ="brSent" VerticalAlignment="Top" Height="27" Width="158"/>
+                        </Grid>
+
+                        <Grid Grid.Row="5">
+                            <TextBlock HorizontalAlignment="Left" Margin="30,468,-260,0" TextWrapping="Wrap" Text="Enter number of Child Builders to start : " VerticalAlignment="Top" Height="27" Width="334"/>
+                            <TextBox HorizontalAlignment="Left" Height="23" Margin="320,468,-282,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Name="pCount" Width="66"/>
+                            <Button Background="LightGreen" Content="Start Mother Builder" ToolTip="Start the build server" Click ="start_builder" HorizontalAlignment="Left" Margin="523,461,-589,0" VerticalAlignment="Top" Width="170" Height="35"/>
+                            <Button Background="LightPink" Content="ShutDown ProcessPool" ToolTip="Shut Down Pool Process" Click="end_process_pool" Margin="916,461,-999,0" VerticalAlignment="Top" Height="35"/>
+                        </Grid>
+
+                    </Grid>
+                </TabItem>
+                <TabItem Name="Log" Header="Logs">
+                    <Grid Background="LightSteelBlue">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="460"></ColumnDefinition>
+                            <ColumnDefinition Width="5"></ColumnDefinition>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Grid.Row="0">
+                            <TextBlock HorizontalAlignment="Left" Margin="18,32,0,0" TextWrapping="Wrap" Text="Build/Test Log Files Present in Repository : " VerticalAlignment="Top" Height="27" Width="361"/>
+                            <Button Content="Show Files" Click="show_BL_files" HorizontalAlignment="Left" Margin="364,30,0,0" VerticalAlignment="Top" Width="84" Height="28" RenderTransformOrigin="0.801,0.571"/>
+                        </Grid>
+                        <Grid Grid.Column="0" Grid.Row="1">
+                            <ListBox Name ="listBox4" SelectionMode="Extended" HorizontalAlignment="Left" Height="253" BorderThickness="2" Margin="16,77,0,0" VerticalAlignment="Top" Width="434"/>
+                        </Grid>
+                        <Grid Grid.Column="0" Grid.Row="2">
+                            <Button Content="Show Log File Content" Click="show_BL_Content" HorizontalAlignment="Left" Margin="83,357,0,0" VerticalAlignment="Top" Width="232" Height="35"/>
+                        </Grid>
+
+                        <GridSplitter Grid.Column="1" Grid.RowSpan="3" Width="5" HorizontalAlignment="Stretch" Background="#ddd"></GridSplitter>
+
+                        <Grid Grid.Column="1" Grid.Row="0">
+                            <TextBlock HorizontalAlignment="Left" Margin="266,32,-499.2,0" TextWrapping="Wrap" Text="" Name ="File_Name" VerticalAlignment="Top" Height="27" Width="238"/>
+                        </Grid>
+                        <Grid Grid.Column="1" Grid.Row="1">
+                            <TextBox HorizontalAlignment="Left" Height="357" Margin="29,77,-715.2,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Name="log" Width="691"/>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+
+            </TabControl>
+
+        </Border>
+    </Grid>
+</Window>

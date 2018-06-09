@@ -1,0 +1,16 @@
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\MotherBuilder.exe.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\MotherBuilder.exe
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\MotherBuilder.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\BlockingQueue.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\Comm.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\IComm.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\BlockingQueue.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\BlockingQueue.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\Comm.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\Comm.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\IComm.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\bin\Debug\IComm.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\obj\Debug\MotherBuilder.csprojResolveAssemblyReference.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\obj\Debug\MotherBuilder.csproj.CoreCompileInputs.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\obj\Debug\MotherBuilder.exe
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\MotherBuilder\obj\Debug\MotherBuilder.pdb

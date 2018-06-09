@@ -1,0 +1,32 @@
+
+  Loading Test Libraries from:
+ C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\ChildBuilder\ChildBuilder_tempDir9001
+ Loaded 
+CodeToTest1.dll
+ Test Result - TestPassed
+
+  Loading Test Libraries from:
+ C:\Users\sonalpatil\Documents\MS\Fall'17Courses\SMA\Project4\Repo_GUI\ChildBuilder\ChildBuilder_tempDir9001
+ Loaded 
+CodeToTest1.dll
+ Test Result - TestPassed
+
+ Loaded 
+CodeToTest2.dll
+ Test Result - TestFailed
+
+  Loading Test Libraries from:
+ C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\ChildBuilder\ChildBuilder_tempDir9001
+ Loaded 
+CodeToTest1.dll
+ Test Result - TestPassed
+
+  Loading Test Libraries from:
+ C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\ChildBuilder\ChildBuilder_tempDir9001
+ Loaded 
+CodeToTest1.dll
+ Test Result - TestPassed
+
+ Loaded 
+CodeToTest2.dll
+ Test Result - TestFailed

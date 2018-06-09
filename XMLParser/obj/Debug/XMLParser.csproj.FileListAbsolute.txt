@@ -1,0 +1,7 @@
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\XMLParser\bin\Debug\XMLParser.dll.config
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\XMLParser\bin\Debug\XMLParser.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\XMLParser\bin\Debug\XMLParser.pdb
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\XMLParser\obj\Debug\XMLParser.csprojResolveAssemblyReference.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\XMLParser\obj\Debug\XMLParser.csproj.CoreCompileInputs.cache
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\XMLParser\obj\Debug\XMLParser.dll
+C:\Users\sonalpatil\Documents\MS\Fall17Courses\SMA\Project4\Repo_GUI\XMLParser\obj\Debug\XMLParser.pdb
